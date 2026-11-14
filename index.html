@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brew — кофейня</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header class="header">
+
+<div class="container header__inner">
+
+<a class="header__logo" href="#">
+
+<img src="img/logo.svg" alt="Brew" width="32" height="32">
+<span class="header__logo-text">Brew</span>
+</a>
+
+<nav>
+<ul class="menu">
+
+<li class="menu__item"><a class="menu__link" href="#hero">Главная</a></li>
+
+<li class="menu__item"><a class="menu__link" href="#menu">Меню</a></li>
+
+<li class="menu__item"><a class="menu__link" href="#about">О нас</a></li>
+<li class="menu__item"><a class="menu__link" href="#contacts">Контакты</a></li>
+</ul>
+</nav>
+<a class="button button--small" href="#contacts">Заказать</a>
+</div>
+
+</header>
+<main>
+    <section class="hero" id="hero">
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <h1 class="hero__title">Кофе, который согревает</h1>
+                <p class="hero__text">Свежая обжарка каждый день. Заходите на чашечку в любое время.</p>
+                <a class="button" href="#menu">Смотреть меню</a>
+            </div>
+            <img class="hero__img" src="img/hero.jpg" alt="Чашка латте с сердечком" width="600" height="400">
+        </div>
+    </section>
+    <section class="features" id="about">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают Brew</h2>
+            <ul class="features__list">
+                <li class="features__item">
+                    <img class="features__icon" src="img/icon-bean.svg" alt="" width="48" height="48">
+                    <h3 class="features__title">Свежее зерно</h3>
+                    <p class="features__text">Обжариваем кофе каждое утро и подаём в день обжарки.</p>
+                </li>
+                <li class="features__item">
+                    <img class="features__icon" src="img/icon-cup.svg" alt="" width="48" height="48">
+                    <h3 class="features__title">Опытные бариста</h3>
+                    <p class="features__text">Каждая чашка готовится вручную и с вниманием к деталям.</p>
+                </li>
+                <li class="features__item">
+                    <img class="features__icon" src="img/icon-heart.svg" alt="" width="48" height="48">
+                    <h3 class="features__title">Уютная атмосфера</h3>
+                    <p class="features__text">Место, где приятно работать, встречаться с друзьями и отдыхать.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="drinks" id="menu">
+        <div class="container">
+            <h2 class="section-title">Наше меню</h2>
+            <ul class="drinks__list">
+                <li class="card">
+                    <img class="card__img" src="img/latte.jpg" alt="Латте" width="600" height="600">
+                    <div class="card__body">
+                        <h3 class="card__title">Латте</h3>
+                        <p class="card__price">250 ₽</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card__img" src="img/cappuccino.jpg" alt="Капучино" width="600" height="600">
+                    <div class="card__body">
+                        <h3 class="card__title">Капучино</h3>
+                        <p class="card__price">230 ₽</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card__img" src="img/espresso.jpg" alt="Эспрессо" width="600" height="600">
+                    <div class="card__body">
+                        <h3 class="card__title">Эспрессо</h3>
+                        <p class="card__price">150 ₽</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card__img" src="img/raf.jpg" alt="Раф" width="600" height="600">
+                    <div class="card__body">
+                        <h3 class="card__title">Раф</h3>
+                        <p class="card__price">280 ₽</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы гостей</h2>
+            <ul class="reviews__list">
+                <li class="review">
+                    <p class="review__text">«Лучший латте в городе. Захожу каждое утро по дороге на работу.»</p>
+                    <p class="review__author">Анна</p>
+                </li>
+                <li class="review">
+                    <p class="review__text">«Очень уютно, приятная музыка и вежливые бариста.»</p>
+                    <p class="review__author">Иван</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer class="footer" id="contacts">
+    <div class="container footer__inner">
+        <div class="footer__info">
+            <p class="footer__title">Brew</p>
+            <p class="footer__text">ул. Ленина, 10</p>
+            <p class="footer__text">Ежедневно 8:00–22:00</p>
+        </div>
+        <ul class="footer__social">
+            <li><a class="footer__link" href="#">Instagram</a></li>
+            <li><a class="footer__link" href="#">Telegram</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
