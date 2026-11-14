@@ -1,139 +1,153 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brew — кофейня</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafeteria — Coffee Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&family=Lora:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="header">
 
-<div class="container header__inner">
-
-<a class="header__logo" href="#">
-
-<img src="img/logo.svg" alt="Brew" width="32" height="32">
-<span class="header__logo-text">Brew</span>
-</a>
-
-<nav>
-<ul class="menu">
-
-<li class="menu__item"><a class="menu__link" href="#hero">Главная</a></li>
-
-<li class="menu__item"><a class="menu__link" href="#menu">Меню</a></li>
-
-<li class="menu__item"><a class="menu__link" href="#about">О нас</a></li>
-<li class="menu__item"><a class="menu__link" href="#contacts">Контакты</a></li>
-</ul>
-</nav>
-<a class="button button--small" href="#contacts">Заказать</a>
-</div>
-
-</header>
-<main>
-    <section class="hero" id="hero">
-        <div class="container hero__inner">
-            <div class="hero__content">
-                <h1 class="hero__title">Кофе, который согревает</h1>
-                <p class="hero__text">Свежая обжарка каждый день. Заходите на чашечку в любое время.</p>
-                <a class="button" href="#menu">Смотреть меню</a>
-            </div>
-            <img class="hero__img" src="img/hero.jpg" alt="Чашка латте с сердечком" width="600" height="400">
-        </div>
-    </section>
-    <section class="features" id="about">
-        <div class="container">
-            <h2 class="section-title">Почему выбирают Brew</h2>
-            <ul class="features__list">
-                <li class="features__item">
-                    <img class="features__icon" src="img/icon-bean.svg" alt="" width="48" height="48">
-                    <h3 class="features__title">Свежее зерно</h3>
-                    <p class="features__text">Обжариваем кофе каждое утро и подаём в день обжарки.</p>
-                </li>
-                <li class="features__item">
-                    <img class="features__icon" src="img/icon-cup.svg" alt="" width="48" height="48">
-                    <h3 class="features__title">Опытные бариста</h3>
-                    <p class="features__text">Каждая чашка готовится вручную и с вниманием к деталям.</p>
-                </li>
-                <li class="features__item">
-                    <img class="features__icon" src="img/icon-heart.svg" alt="" width="48" height="48">
-                    <h3 class="features__title">Уютная атмосфера</h3>
-                    <p class="features__text">Место, где приятно работать, встречаться с друзьями и отдыхать.</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="drinks" id="menu">
-        <div class="container">
-            <h2 class="section-title">Наше меню</h2>
-            <ul class="drinks__list">
-                <li class="card">
-                    <img class="card__img" src="img/latte.jpg" alt="Латте" width="600" height="600">
-                    <div class="card__body">
-                        <h3 class="card__title">Латте</h3>
-                        <p class="card__price">250 ₽</p>
-                    </div>
-                </li>
-                <li class="card">
-                    <img class="card__img" src="img/cappuccino.jpg" alt="Капучино" width="600" height="600">
-                    <div class="card__body">
-                        <h3 class="card__title">Капучино</h3>
-                        <p class="card__price">230 ₽</p>
-                    </div>
-                </li>
-                <li class="card">
-                    <img class="card__img" src="img/espresso.jpg" alt="Эспрессо" width="600" height="600">
-                    <div class="card__body">
-                        <h3 class="card__title">Эспрессо</h3>
-                        <p class="card__price">150 ₽</p>
-                    </div>
-                </li>
-                <li class="card">
-                    <img class="card__img" src="img/raf.jpg" alt="Раф" width="600" height="600">
-                    <div class="card__body">
-                        <h3 class="card__title">Раф</h3>
-                        <p class="card__price">280 ₽</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="reviews">
-        <div class="container">
-            <h2 class="section-title">Отзывы гостей</h2>
-            <ul class="reviews__list">
-                <li class="review">
-                    <p class="review__text">«Лучший латте в городе. Захожу каждое утро по дороге на работу.»</p>
-                    <p class="review__author">Анна</p>
-                </li>
-                <li class="review">
-                    <p class="review__text">«Очень уютно, приятная музыка и вежливые бариста.»</p>
-                    <p class="review__author">Иван</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-</main>
-<footer class="footer" id="contacts">
-    <div class="container footer__inner">
-        <div class="footer__info">
-            <p class="footer__title">Brew</p>
-            <p class="footer__text">ул. Ленина, 10</p>
-            <p class="footer__text">Ежедневно 8:00–22:00</p>
-        </div>
-        <ul class="footer__social">
-            <li><a class="footer__link" href="#">Instagram</a></li>
-            <li><a class="footer__link" href="#">Telegram</a></li>
+  <!-- 1. Шапка + главный экран -->
+  <header class="header" id="home">
+    <div class="container header__top">
+      <a class="logo" href="#home">Cafeteria</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#skills">Blog</a></li>
+          <li><a class="nav__link" href="#menu">Menu</a></li>
+          <li><a class="nav__link" href="#gallery">Gallery</a></li>
         </ul>
+      </nav>
+      <a class="button button--small" href="#contacts">Contact us</a>
+      <img class="header__avatar" src="img/avatar.png" alt="Профиль" width="48" height="48">
     </div>
-</footer>
+
+    <div class="container hero">
+      <div class="hero__content">
+        <p class="hero__subtitle">Order Today...</p>
+        <p class="hero__quote">"Brewing Happiness, One Cup at a Time"</p>
+        <p class="hero__text">Discover the Perfect Blend of Aroma, Flavor, and Comfort</p>
+        <div class="hero__buttons">
+          <a class="button" href="#menu">Order now</a>
+          <a class="button" href="#about">Explore more</a>
+        </div>
+        <ul class="hero__stats">
+          <li class="hero__stat"><span class="hero__number">50+</span>Item of Coffee</li>
+          <li class="hero__stat"><span class="hero__number">300+</span>Order Running</li>
+        </ul>
+      </div>
+      <img class="hero__img" src="img/hero.png" alt="Чашка кофе с зёрнами" width="520" height="460">
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. О кофейне -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <img class="about__img" src="img/about.png" alt="Капучино с печеньем" width="300" height="220">
+        <div class="about__content">
+          <h2 class="section-title section-title--gold">About our Coffee-Shop</h2>
+          <p class="about__text">Welcome to Cafeteria, where every sip is crafted to delight your senses. Enjoy freshly brewed coffee, handcrafted beverages, and a cozy ambiance that feels like home.</p>
+          <a class="button" href="#menu">View Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Навыки / статистика -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title section-title--light">Our Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item"><span class="skills__number">400</span>Online Store</li>
+          <li class="skills__item"><span class="skills__number">80</span>Product Types</li>
+          <li class="skills__item"><span class="skills__number">400</span>Happy Customers</li>
+          <li class="skills__item"><span class="skills__number">10</span>Years Experience</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. Меню -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <h2 class="section-title">Best Menus</h2>
+        <ul class="tabs">
+          <li><button class="tabs__item tabs__item--active" type="button">Coffee</button></li>
+          <li><button class="tabs__item" type="button">Noncoffee</button></li>
+          <li><button class="tabs__item" type="button">Signature</button></li>
+          <li><button class="tabs__item" type="button">Iced Coffee</button></li>
+          <li><button class="tabs__item" type="button">Expresso</button></li>
+          <li><button class="tabs__item" type="button">Americano</button></li>
+        </ul>
+        <ul class="menu__list">
+          <li class="card">
+            <img class="card__img" src="img/menu-1.jpg" alt="Iced Coffee" width="240" height="240">
+            <h3 class="card__title">Iced Coffee</h3>
+            <p class="card__price">$10.13</p>
+          </li>
+          <li class="card">
+            <img class="card__img" src="img/menu-2.jpg" alt="Latte Coffee" width="240" height="240">
+            <h3 class="card__title">Latte Coffee</h3>
+            <p class="card__price">$10.13</p>
+          </li>
+          <li class="card">
+            <img class="card__img" src="img/menu-3.jpg" alt="Dalgona Coffee" width="240" height="240">
+            <h3 class="card__title">Dalgona Coffee</h3>
+            <p class="card__price">$10.13</p>
+          </li>
+          <li class="card">
+            <img class="card__img" src="img/menu-4.jpg" alt="Hot Coffee" width="240" height="240">
+            <h3 class="card__title">Hot Coffee</h3>
+            <p class="card__price">$10.13</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. Галерея -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="section-title section-title--light">Our Gallery</h2>
+        <ul class="gallery__list">
+          <li><img class="gallery__img" src="img/gallery-1.jpg" alt="Латте макиато" width="280" height="280"></li>
+          <li><img class="gallery__img" src="img/gallery-2.jpg" alt="Эспрессо из кофемашины" width="280" height="280"></li>
+          <li><img class="gallery__img" src="img/gallery-3.jpg" alt="Латте-арт" width="280" height="280"></li>
+          <li><img class="gallery__img" src="img/gallery-4.jpg" alt="Чашка капучино" width="280" height="280"></li>
+        </ul>
+        <img class="gallery__circles" src="img/circles.png" alt="" width="460" height="100">
+        <a class="button button--red" href="#gallery">Show more</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. Подвал -->
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <p class="footer__logo">Cafeteria</p>
+      <div class="footer__columns">
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#about">About us</a></li>
+          <li><a class="footer__link" href="#">Reviews</a></li>
+          <li><a class="footer__link" href="#gallery">Gallery</a></li>
+        </ul>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#">Customer care</a></li>
+          <li><a class="footer__link" href="#">Privacy Policy</a></li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__heading">Get In Touch</li>
+          <li><a class="footer__link footer__link--underline" href="mailto:cafeteria@gmail.com">Cafeteria@gmail.com</a></li>
+          <li><a class="footer__link" href="tel:+916574267">+916574267</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
